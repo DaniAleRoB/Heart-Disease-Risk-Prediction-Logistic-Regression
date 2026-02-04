@@ -123,10 +123,15 @@ Heart-Disease-Risk-Prediction-Logistic-Regression/
 - **Distribution analysis** with histograms (mean vs median)
 - **Multivariate relationships** using pair plots
 
-**[INSERT class_distribution_chart.png]**
+**class_distribution_chart**
 
-**[INSERT correlation_heatmap.png]**
+![alt text](images/class_distribution_chart.png)
 
+**correlation_heatmap**
+
+![
+
+](images/correlation_heatmap.png)
 ### 2. Custom Logistic Regression Implementation
 
 - **From-scratch implementation** of sigmoid function
@@ -141,7 +146,10 @@ Heart-Disease-Risk-Prediction-Logistic-Regression/
 - Tested values: [0, 0.001, 0.01, 0.1, 1]
 - **Optimal λ = 0.01** identified through systematic evaluation
 
-**[INSERT cost_convergence_different_lambdas.png]**
+**cost_convergence_different_lambdas.png**
+
+![alt text](<images/Convergence with Different L2 Regularization Levels.png>)
+
 
 ### 4. Decision Boundary Visualization
 
@@ -151,7 +159,10 @@ Visualization of decision boundaries for 3 feature pairs:
 2. **Max HR vs ST depression** (positive/negative combination)
 3. **Age vs BP** (clinical relevance)
 
-**[INSERT decision_boundaries_3pairs.png]**
+**decision_boundaries_3pairs.png**
+
+![alt text](images/3pair.png)
+
 
 ### 5. Model Evaluation
 
@@ -279,7 +290,9 @@ jupyter notebook
 - Better generalization with controlled overfitting
 - More stable and interpretable coefficients
 
-**[INSERT metrics_comparison_table.png]**
+**metrics_comparison_table**
+
+![alt text](images/comparison_metrics.png)
 
 ---
 
@@ -300,7 +313,9 @@ jupyter notebook
 - Higher ST depression → **Higher disease risk**
 - Higher maximum heart rate → **Lower disease risk** (better cardiac capacity)
 
-**[INSERT feature_importance_chart.png]**
+**feature_importance_chart**
+
+![images/feature importance.png](<images/feature importance.png>)
 
 ### 2. Cost Function Convergence
 
@@ -309,7 +324,9 @@ The model converged smoothly over 2000 iterations:
 - **Final cost**: 0.4299
 - **Reduction**: 38.0%
 
-**[INSERT cost_vs_iterations.png]**
+**cost_vs_iterations**
+
+![alt text](images/costVSiteration.png)
 
 ### 3. Decision Boundary Analysis
 
@@ -328,11 +345,18 @@ The model converged smoothly over 2000 iterations:
 - **Separability**: Low
 - Insufficient for classification alone
 
-**[INSERT decision_boundary_pair1.png]**
+**decision_boundary_pair1**
 
-**[INSERT decision_boundary_pair2.png]**
+![alt text](images/pair1.png)
 
-**[INSERT decision_boundary_pair3.png]**
+**decision_boundary_pair2**
+
+![alt text](images/pair2.png)
+
+
+**decision_boundary_pair3**
+
+![alt text](images/pair3.png)
 
 ### 4. Regularization Impact
 
@@ -346,9 +370,13 @@ The model converged smoothly over 2000 iterations:
 | 0.1 | 75.3% | 1.321 | Possible underfitting |
 | 1 | 74.1% | 0.971 | Too much regularization |
 
-**[INSERT regularization_metrics_vs_lambda.png]**
+**regularization_metrics_vs_lambda**
 
-**[INSERT regularization_boundary_comparison.png]**
+![alt text](images/metricsvsLamdaRE.png)
+
+**regularization_boundary_comparison**
+
+![alt text](images/regularization_boundary.png)
 
 ---
 
@@ -495,5 +523,4 @@ If you use this project in your research or work, please cite:
   url = {https://github.com/yourusername/Heart-Disease-Risk-Prediction-Logistic-Regression}
 }
 ```
-
 
