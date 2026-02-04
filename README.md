@@ -486,35 +486,14 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 If you use this project in your research or work, please cite:
 
 ```bibtex
-@misc{heart_disease_lr_2024,
+@misc{heart_disease_lr_2026,
   author = {Rodriguez Baracaldo, Daniel Alejandro},
   title = {Heart Disease Risk Prediction: Logistic Regression from Scratch},
-  year = {2024},
+  year = {2026},
   publisher = {GitHub},
   institution = {Escuela Colombiana de Ingenieria Julio Garavito},
   url = {https://github.com/yourusername/Heart-Disease-Risk-Prediction-Logistic-Regression}
 }
 ```
 
----
 
-**Last Updated**: December 2024
-
----
-
-## Image Placeholders Summary
-
-Here are all the images you need to insert in order:
-
-1. **[INSERT class_distribution_chart.png]** - Bar chart showing class distribution (Section: Key Features > EDA)
-2. **[INSERT correlation_heatmap.png]** - Correlation matrix heatmap (Section: Key Features > EDA)
-3. **[INSERT cost_convergence_different_lambdas.png]** - Cost vs iterations for different λ values (Section: Key Features > L2 Regularization)
-4. **[INSERT decision_boundaries_3pairs.png]** - All three decision boundary plots together (Section: Key Features > Decision Boundary)
-5. **[INSERT metrics_comparison_table.png]** - Metrics comparison table screenshot (Section: Model Performance)
-6. **[INSERT feature_importance_chart.png]** - Feature importance bar chart (Section: Results > Feature Importance)
-7. **[INSERT cost_vs_iterations.png]** - Single cost convergence plot (Section: Results > Cost Convergence)
-8. **[INSERT decision_boundary_pair1.png]** - ST depression vs Number of vessels fluro (Section: Results > Decision Boundary)
-9. **[INSERT decision_boundary_pair2.png]** - Max HR vs ST depression (Section: Results > Decision Boundary)
-10. **[INSERT decision_boundary_pair3.png]** - Age vs BP (Section: Results > Decision Boundary)
-11. **[INSERT regularization_metrics_vs_lambda.png]** - 2x2 subplot of metrics vs λ (Section: Results > Regularization Impact)
-12. **[INSERT regularization_boundary_comparison.png]** - Side-by-side boundary comparison (Section: Results > Regularization Impact)
