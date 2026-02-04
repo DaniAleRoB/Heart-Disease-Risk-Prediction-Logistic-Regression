@@ -423,33 +423,29 @@ where:
 
 ---
 
-## Future Improvements
+## Deployment in Amazon SageMaker
 
-### Short-term:
+Now we will create the new lab and add both the jupyter file and the dataset:
 
-- [ ] Implement **confusion matrix visualization**
-- [ ] Add **ROC curve** and **AUC score** calculation
-- [ ] Create **feature importance plot** with confidence intervals
-- [ ] Implement **k-fold cross-validation**
-- [ ] Add **learning curve analysis** (train vs validation)
+![img.png](img.png)
 
-### Medium-term:
+![img_1.png](img_1.png)
 
-- [ ] **Feature engineering**: Create interaction terms
-- [ ] **Polynomial features** for non-linear relationships
-- [ ] **Grid search** for hyperparameter optimization
-- [ ] **Ensemble methods**: Compare with Random Forest, XGBoost
-- [ ] **SHAP values** for model interpretability
+![img_3.png](img_3.png)
 
-### Long-term:
+![img_2.png](img_2.png)
 
-- [ ] **Web application** using Flask/Streamlit for predictions
-- [ ] **REST API** deployment
-- [ ] **Cloud deployment** on AWS SageMaker or Google Cloud
-- [ ] **Real-time prediction pipeline**
-- [ ] **Model monitoring** and drift detection
 
----
+## **Deployment Status**
+
+The SageMaker deployment could not be completed due to IAM permission restrictions. The AWS account policies explicitly denied the `sagemaker:CreateEndpointConfig` action required to create the inference endpoint.
+
+## **What This Means**
+
+While the model was successfully prepared for deployment with all necessary files and scripts, the final step of creating a live endpoint was blocked by security policies.
+
+
+The deployment pipeline is complete and would function with appropriate permissions.
 
 ## Contributing
 
